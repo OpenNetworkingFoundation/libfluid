@@ -96,3 +96,13 @@ development and versioning practices.
 A [mailing list](https://groups.google.com/forum/#!forum/libfluid) is available 
 for any questions and discussions involving **libfluid**. Issues and bugs 
 should be reported directly in the GitHub repositories mentioned above.
+
+# About
+
+The OpenFlow Driver was originally developed by the following [CPqD](http://cpqd.com/) team:
+
+
+* [Allan Vidal](https://github.com/alnvd)
+* [Eder Leão Fernandes](https://github.com/ederlf)
+* [Christian Esteve Rothenberg](http://www.dca.fee.unicamp.br/~chesteve/)
+* [Marcos Rogerio Salvador](br.linkedin.com/pub/marcos-salvador/0/73a/108)
