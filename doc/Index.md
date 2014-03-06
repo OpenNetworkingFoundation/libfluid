@@ -103,4 +103,4 @@ The OpenFlow Driver (**libfluid**) was originally developed by the following tea
 * Allan Vidal: [GitHub](https://github.com/alnvdl) | [LinkedIn](http://br.linkedin.com/pub/allan-vidal/90/3b0/b75)
 * Eder Leão Fernandes: [GitHub](https://github.com/ederlf) | [LinkedIn](http://br.linkedin.com/in/ederlf)
 * Christian Esteve Rothenberg: [Home](http://www.dca.fee.unicamp.br/~chesteve/) | [LinkedIn](http://br.linkedin.com/in/christianesteve)
-* Marcos Rogério Salvador: [LinkedIn](br.linkedin.com/pub/marcos-salvador/0/73a/108)
+* Marcos Rogério Salvador: [LinkedIn](http://br.linkedin.com/pub/marcos-salvador/0/73a/108)
