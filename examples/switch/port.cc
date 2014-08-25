@@ -67,7 +67,7 @@ void SwPort::packet_handler(u_char *user, const struct pcap_pkthdr* pkthdr,const
 		//No -> Send to controller
 		if(*(*(pcap_dp->dp))->conn != NULL){					
 			// /*TODO: generate xid function*/
-			of10::PacketIn pi(21,  Datapath::buffer_id, pkthdr->len, pkt->in_port, of10::OFPR_NO_MATCH);
+			of10::PacketIn pi(21,  Datapath::buffer_id, pkt->in_port, pkthdr->len, of10::OFPR_NO_MATCH);
 	 		pi.data(pkt->data, pkt->len);
 	 		uint8_t* buffer  = pi.pack();
 	 		(*(*(pcap_dp->dp))->conn)->send(buffer, pi.length());

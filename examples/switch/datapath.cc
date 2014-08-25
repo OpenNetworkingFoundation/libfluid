@@ -40,7 +40,7 @@ void Datapath::action_handler(Action *act, struct packet *pkt){
  					Datapath::buffer_id++;
  					this->pkt_buffer.insert(std::pair<uint32_t,struct packet*>(Datapath::buffer_id,pkt));
  					uint16_t max_len = pkt->len > oa->max_len()? oa->max_len():pkt->len;
- 					of10::PacketIn pi(21,  -1, pkt->len, pkt->in_port, of10::OFPR_ACTION);
+ 					of10::PacketIn pi(21,  -1, pkt->in_port, pkt->len, of10::OFPR_ACTION);
 			 		pi.data(pkt->data, max_len);
 			 		uint8_t* buffer  = pi.pack();
 			 		(*(this->conn))->send(buffer, pi.length());
